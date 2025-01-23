@@ -134,9 +134,6 @@ Le but est de permettre la communication entre ces deux modules en mode point à
   - `1` : Entrée numérique.
   - `2` : Sortie numérique.
 
-### 12. IA (I/O Input Address)
-- Adresse des données d’entrée/sortie du module auquel les données doivent être envoyées.  
-
 ### 13. RR (Retries)
 - Nombre de tentatives de retransmission si un message n’est pas accusé de réception.  
 - Par défaut : `3`.  
@@ -162,10 +159,6 @@ Le but est de permettre la communication entre ces deux modules en mode point à
 - Valeurs possibles :
   - `0` : Mode veille désactivé (le module est toujours actif).
   - `1` : Veille activée avec temporisation.  
-
-### 18. AO (API Options)
-- Définit le comportement des trames API.  
-- Utilisé pour personnaliser les réponses et les types de messages envoyés.
 
 ---
 
